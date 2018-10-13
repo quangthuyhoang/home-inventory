@@ -1,0 +1,4 @@
+<div>
+  <!-- <input #inputCode type='text' [value]="scanCode" (input)="onScanHandler(inputCode.value)" > -->
+  <input #inputCode type='text' (keyup)="onScanHandler(inputCode)">
+</div>
